@@ -1,0 +1,30 @@
+/* Style the header */
+header {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Push items to both ends of the header */
+    align-items: center; /* Vertically center items */
+    padding: 20px;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Style the navigation menu */
+.main-nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    display: flex; /* Use flexbox for layout */
+}
+
+.main-nav li {
+    margin-right: 20px; /* Add spacing between menu items */
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Optional: Style the links on hover */
+.main-nav a:hover {
+    text-decoration: underline;
+}
