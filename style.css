@@ -29,3 +29,41 @@ header {
     text-decoration: underline;
     color: red;
 }
+/* Style the about section */
+#about {
+    background-color: black;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Style the about content container */
+.about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style the subheading on the left */
+.about-left {
+    flex: 1; /* Occupy 1/2 of the available space */
+}
+
+.about-left h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Style the profile photo on the right */
+.about-right {
+    flex: 1; /* Occupy 1/2 of the available space */
+}
+
+.about-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Makes the image round, adjust as needed */
+}
