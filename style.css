@@ -114,3 +114,26 @@ header {
 .service-item:hover {
     background-color: #290202; /* Darker grey on hover */
 }
+/* Style the contact section */
+#contact {
+    background-color: black; /* Black background color */
+    color: #fff; /* White text color */
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Style the contact content container */
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style contact links */
+.contact-content a {
+    color: #fff; /* White text color for links */
+    text-decoration: none;
+}
+
+.contact-content a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
