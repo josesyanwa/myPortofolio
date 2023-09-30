@@ -97,6 +97,7 @@ header {
     background-color: #30260b; /* Light grey box background color */
     padding: 20px;
     border-radius: 5px;
+    color: white;
 }
 
 /* Style individual service items */
@@ -111,5 +112,5 @@ header {
 
 /* Optional: Add hover effect to service items */
 .service-item:hover {
-    background-color: #ccc; /* Darker grey on hover */
+    background-color: #290202; /* Darker grey on hover */
 }
