@@ -67,3 +67,48 @@ header {
     height: auto;
     border-radius: 50%; /* Makes the image round, adjust as needed */
 }
+/* Style the services section */
+#services {
+    background-color: #f0f0f0; /* Grey background color */
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Style the services content container */
+.services-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style the services subtitle on the left */
+.services-left {
+    flex: 1;
+    text-align: left;
+}
+
+/* Style the services points on the right in a grey box */
+.services-right {
+    flex: 2;
+    background-color: #ddd; /* Light grey box background color */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Style individual service items */
+.service-item {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.service-item h3 {
+    margin: 0;
+}
+
+/* Optional: Add hover effect to service items */
+.service-item:hover {
+    background-color: #ccc; /* Darker grey on hover */
+}
