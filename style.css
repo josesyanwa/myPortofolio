@@ -69,7 +69,7 @@ header {
 }
 /* Style the services section */
 #services {
-    background-color: #f0f0f0; /* Grey background color */
+    background-color: #080800f0; /* Grey background color */
     padding: 40px 0;
     text-align: center;
 }
@@ -93,7 +93,7 @@ header {
 /* Style the services points on the right in a grey box */
 .services-right {
     flex: 2;
-    background-color: #ddd; /* Light grey box background color */
+    background-color: #574208; /* Light grey box background color */
     padding: 20px;
     border-radius: 5px;
 }
