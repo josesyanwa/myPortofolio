@@ -97,13 +97,13 @@ header {
     background-color: #30260b; /* Light grey box background color */
     padding: 20px;
     border-radius: 5px;
-    color: white;
 }
 
 /* Style individual service items */
 .service-item {
     margin-bottom: 20px;
     text-align: left;
+    color: white;
 }
 
 .service-item h3 {
